@@ -3,11 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Peter Browse - 2 by 2</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
-    <link rel="stylesheet" href="css/main.css.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>	
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="prerender" href="http://www.patatap.com/" />
+    <link rel="prefetch" href="videos/horse.mp4" />
+    <script src="js/typed.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
-    hi
+	  <div class="wrapper">
+		  <div class="inner">
+		  	<section class="intro">
+			  	<div class="button" id="start">
+				  	<p>Start</p>
+			  	</div>
+	  		</section>
+	  		<section class="reading">
+		  		<p></p>
+	  		</section>
+	  		<section class="count" id="one">
+		  		<p>1</p>
+	  		</section>
+	  		<section class="thing" id="one_thing">
+		  		<p></p>
+	  		</section>
+	  		<section class="count" id="two">
+		  		<p>2</p>
+	  		</section>
+	  		<section class="thing" id="two_thing">
+		  		<video id="horse" width="640" height="480" onended="videoEnded()">
+				  <source src="videos/horse.mp4" type="video/mp4">
+				</video>
+	  		</section>
+	  		<section class="end">
+		  		<p></p>
+	  		</section>
+		  </div>
+	  </div>
   </body>
 </html>
