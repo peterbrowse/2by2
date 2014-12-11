@@ -23,7 +23,7 @@ $(document).ready(function() {
 								strings: [
 									"I like this website.",
 									"It makes me :-)",
-									"The internet doesn't have to be all...",
+									"The internet isn't always...",
 									"porn",
 									"'hacking'",
 									"and hashtags.",
